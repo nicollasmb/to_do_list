@@ -1,0 +1,159 @@
+
+:root{
+   --main-color: #2e8660;
+   --font-color: white;
+}
+
+* {
+   margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    list-style-type: none;
+ }
+
+ .container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .box{
+    min-width: 800px;
+    background-color: var(--main-color);
+    width: 30%;
+    height: 75%;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+ 
+ .box-header{
+    display:flex;
+    border-top: 20px;
+    width: 100%;
+    height: 14%;
+    padding: 30px;
+ }
+
+ .btn-add{
+    width: 50px;
+    height: 50px;
+   
+    font-size: 40px;
+    color: var(--font-color);
+    background-color: var(--main-color);
+    cursor: pointer;
+   
+ }
+ .btn-add:hover {
+    font-size: 43px;
+ }
+ 
+.box-lista{
+   padding:50px;
+   max-height: 160px;
+
+}
+
+.input-add{
+   margin: 1% 2% 1% 2%;
+   height: 30px;
+   visibility: hidden;
+   opacity: 0;
+   border-radius: 10px;
+   transition: 0.2s;
+}  
+
+.btn-cancel{
+   display: none;
+   width: 30px;
+   height: 30px;
+   font-size: 26px;
+   color: var(--font-color);
+   background-color: var(--main-color);
+   cursor: pointer;
+}
+
+.btn-addToList{
+   display:none;
+   margin-right: 2.2%;
+   margin-top: 0.6%;
+   width: 30px;
+   height: 30px;
+   font-size: 26px;
+   color: var(--font-color);
+   background-color: var(--main-color);
+   cursor: pointer;
+}
+
+
+.done-button{
+   width: 30px;
+   height: 30px;
+   border-radius: 15px;
+   border: 1.5px solid black;
+
+}
+.done-button:hover{
+   background-color: var(--main-color);
+}
+
+.todo{
+   display:flex;
+   padding: 17px;
+   border-radius: 15px;
+   margin-bottom: 12px;
+   background-color:  var(--font-color);
+}
+
+.task-text{
+   padding: 2px 0 0 18px;
+}
+
+
+.titleCard{
+   font-size: 2rem;
+}
+.toDoTitle{
+   font-size: 2rem;
+}
+
+
+.inputNewTitle{
+   height: 30px;
+
+   background-color: black;
+   color: white;
+   
+
+}
+
+.colorbox{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   float:right;
+   flex-direction: column;
+   width: 3%;
+   height: 21%;
+   background-color: rgb(223, 220, 220);
+
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+}
+
+.colorbutton{
+   width: 35px;   
+   height: 35px;
+   border-radius: 50%;
+   margin-bottom: 5px;
+}
+
+
+
+
+
+   
